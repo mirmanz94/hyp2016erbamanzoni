@@ -47,7 +47,7 @@
 											<li><a href="smartlife-Service%20for%20People.html">Service For People</a></li>
 										</ul></li>
 									<li>
-                                        <a class="selected">Assistance Services ></a>
+                                        <a>Assistance Services ></a>
 										<ul>
                                             <li><a href="assistants%20services-smartphone&tablet.html">Smartphone & Tablet</a></li>
 											<li><a href="assistants%20services-adsl.html">ADSL</a></li>
@@ -108,7 +108,7 @@
                     </div>
             
 			<!-- Footer -->
-
+            <br>
             <div id="footer-wrapper">
 					<footer id="footer" class="container">
 						<div class="row">
