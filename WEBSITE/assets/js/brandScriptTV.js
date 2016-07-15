@@ -7,7 +7,7 @@ $(window).load(function(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "assets/php/brandQueryTV.php", //Relative or absolute path to file.php file
+        url: "http://www.hyp2016erbamanzoni.altervista.org/assets/php/brandQueryTV.php", //Relative or absolute path to file.php file
         data: {table:id},
         success: function(response) {
             console.log(response);

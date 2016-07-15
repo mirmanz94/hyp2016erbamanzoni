@@ -11,7 +11,7 @@ $(window).load(function(){
         method: "POST",
         //dataType: JSON, //type of data
         crossDomain: true, //localhost purposes
-        url: "assets/php/modemInfoQuery.php?brand=" + brand +"&model=" + model, //Relative or absolute path to file.php file
+        url: "http://www.hyp2016erbamanzoni.altervista.org/assets/php/modemInfoQuery.php?brand=" + brand +"&model=" + model, //Relative or absolute path to file.php file
         //data:{model: model, brand: brand},
         contentType: "application/json",
         success: function(response) {

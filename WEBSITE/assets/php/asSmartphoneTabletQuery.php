@@ -1,5 +1,9 @@
 <?php
     
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Credentials: true');
+    header('Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT');
+    header('Access-Control-Allow-Headers: Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers');
     $tab=($_POST["tab"]);
     $mysqli = new mysqli("http://hyp2016erbamanzoni.altervista.org/","3095603","","my_hyp2016erbamanzoni");
     if(mysqli_connect_errno()) {
