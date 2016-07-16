@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget  xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.altervista.hyp2016erbamanzoni">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>TIM app</name>
+
+    <description>
+        TIMweb app 
+    </description>
+        
+    <!-- Allow links to example.com -->
+<plugin name="cordova-plugin-whitelist" />
+<allow-navigation href="*" />
+<access origin="*"  />
+        
+<icon src="assets/css/images/logo_tim_2016_bianco.png" width="72" height="72" />
+<icon src="assets/css/images/logo_tim_2016_bianco.png" width="48" height="48" />
+<icon src="assets/css/images/logo_tim_2016_bianco.png" width="36" height="36" />
+        
+</widget>
