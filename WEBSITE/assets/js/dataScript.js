@@ -17,7 +17,7 @@ $(window).load(function(){
             var returnString = "";
             var div = document.getElementById("shop");
             for(var i=0 ; i < results.length; i++) {
-                returnString = returnString.concat("<div class=3u\u00A012u(medium)><div id=content><section class=box\u00A0feature><a href=http://hyp2016erbamanzoni.altervista.org/smartphone-presentation.php?brand=" + results[i].brand + "&model=" + results[i].name + " class=shop><img src=" + results[i].image + "></a><h4>" + results[i].brand +" "+ results[i].name + "</h4><h4>" + results[i].price + "€</h4></section></div></div>"); 
+                returnString = returnString.concat("<div class=3u\u00A012u(medium)><div id=content><section class=box\u00A0feature><a href=smartphone-presentation.php?brand=" + results[i].brand + "&model=" + results[i].name + " class=shop><img src=" + results[i].image + "></a><h4>" + results[i].brand +" "+ results[i].name + "</h4><h4>" + results[i].price + "€</h4></section></div></div>"); 
             }
             div.innerHTML = div.innerHTML + returnString;
         },
